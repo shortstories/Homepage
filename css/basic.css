@@ -1,0 +1,45 @@
+@import "bootstrap.min.css";
+
+body {
+	padding-top: 70px; 
+}
+
+.header .navbar {
+	background-color: white;
+	border-top: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.header .nav-tabs {
+	border-bottom: none;
+}
+
+.header .nav-tabs li a {
+	padding: 15px 20px 14px 20px;
+	font-weight: bolder;
+	color: #A4A4A4;
+}
+.header .nav-tabs li.active a {
+	color: #555;
+}
+
+.header .navbar-brand {
+	padding: 5px 35px 5px 25px;
+}
+.header .navbar-brand img {
+	height: 40px;
+}
+
+.footer {
+	border-top: 1px solid #ddd;
+	margin-top: 30px;
+}
+
+.footer dl {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.footer li:first-child{
+	padding-left: 0;
+}

@@ -1,0 +1,24 @@
+.contents h2 {
+	margin-bottom: 30px;
+}
+
+.nav li{
+	text-align: center;
+}
+.nav li a{
+	color: #555;
+}
+.nav-pills li.active a{
+	background-color: #555;
+}
+.sidebar {
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid #ddd;
+}
+.nav-title {
+	border-bottom: 1px solid #ddd;
+}
+.contents li{
+	margin-bottom: 15px;
+}
