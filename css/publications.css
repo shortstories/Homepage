@@ -18,7 +18,11 @@
 }
 .nav-title {
 	border-bottom: 1px solid #ddd;
+	width: 150px;	
 }
 .contents li{
-	margin-bottom: 15px;
+	margin-bottom: 25px;
+}
+dt {
+	font-size: 125%;
 }
