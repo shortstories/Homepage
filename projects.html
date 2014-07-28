@@ -8,8 +8,9 @@
 		<script src="./js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/basic.css" rel="stylesheet" media="screen">
+		<link href="css/projects.css" rel="stylesheet">
 	</head>
-	<body>
+	<body  data-spy="scroll" data-target=".sidebar">
 	<div class="header">
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
@@ -39,6 +40,188 @@
 	</div>
 
 	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="sidebar hidden-print affix" role="complementary">
+						<ul class="nav nav-pills nav-stacked">
+							<li class="nav-title"><a href="#"><h4>Projects</h4></a></li>
+							<li class="active"><a href="#citeSearch">CiteSearch</a></li>
+							<li><a href="#trec">TREC</a></li>
+							<li><a href="#vcob">VCoB</a></li>
+							<li><a href="#dgov">DGov</a></li>
+							<li><a href="#jittdl">jiTTDL</a></li>
+							<li><a href="#cskd">CSKD</a></li>
+							<li><a href="#widit">WIDIT</a></li>
+							<li><a href="#irisweb">IRISWeb</a></li>
+							<li><a href="#pudns">PUDNS</a></li>
+							<li><a href="#stp">STP</a></li>
+							<li><a href="#wse">WSE</a></li>
+							<li><a href="#ls">Link Summarizer</a></li>
+							<li><a href="#irissc">IRIS SC</a></li>
+							<li><a href="#irismp">IRIS MP</a></li>
+							<li><a href="#ns">NICE STEMMER</a></li>
+							<li><a href="#irist">IRIS Topaz</a></li>
+							<li><a href="#irrisr">IRIS Ruby</a></li>
+							<li><a href="#socsa">SOCSA</a></li>
+							<li><a href="#seed">SEED</a></li>
+							<li><a href="#cann">CANN</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-10 contents">
+					<h2>Projects</h2>
+					<dl>
+						<dt id="citeSearch">CiteSearch <small>: 2005 - Present</small></dt>
+						<dd>
+							<ul>
+								<li>CiteSearch project, a component of VCoB, develops a multi-faceted fusion approach to information quality assessment that employs a range of citation-based methods to analyze data from multiple sources.</li>
+								<li>The CiteSearch system currently consists of the sf-vcob component, which harvests and analyzes citation data of faculty publications, and the mini-vcob component, which collects and organizes scholarly publications and associated citation data on a given topic.</li>
+							</ul>
+						</dd>
+						
+						<dt id="trec">TREC <small>: There are multiple Tracks under TREC (Text Retrieval Conference) domain</small></dt>
+						<dd>
+							<div class="row">
+								<div class="col-md-6 col-left">
+									<h4>Blog Track <small>: 2006 - 2008</small></h4>
+									A new track in TREC 2006. The goal of the Blog track is to explore information seeking behavior in the blogosphere. The task of Blog track is to retrieve blog postings that express opinion about a given target. A subtask is to determine the opinion polarity (i.e., positive, negative, mixed).
+								</div>
+								<div class="col-md-6 col-right">
+									<h4>SPAM Track <small>: 2005 - 2006</small></h4>									
+									A new track in TREC 2005. The goal of the SPAM track is to provide a standard evaluation of current and proposed spam filtering approaches, thereby laying the foundation for the evaluation of more general email filtering and retrieval tasks. The task of SPAM track is to create an automatic spam filter that classifies a chronological sequence of email messages as SPAM or HAM (non-spam). The spam filter is run on several email sequences, some public and some private. The performance of the filter is measured with respect to gold standard judgements by a human assessor.
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 col-left">
+									<h4>Genomics Track <small>: 2004</small></h4>
+									Due to the explosion of new data-intensive technologies for sequencing and examining genomes and proteomes during the '90s, the TREC Genomics Track was started in 2003. Its goal is to explore new methods for efficiently discovering and retrieving documents associated with the function of various genes and proteins within a given biology domain or 'sub-area'.
+								</div>
+								<div class="col-md-6 col-right">
+									<h4>HARD Track <small>: 2004 - 2005</small></h4>
+									The goal of HARD (High Accuracy Retrieval from Documents) is to achieve high accuracy retrieval from documents by leveraging additional information about the searcher and/or the search context, through techniques such as passage retrieval, and using very targeted interaction with the searcher.
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 col-left">
+									<h4>Robust Track <small>: 2003 - 2005</small></h4>
+									The Robust Retrieval Track was a new track introduced in TREC 2003. The goal of the track is to improve the consistency of retrieval technology by focusing on poorly performing topics. In addition, the tracks brings back a classic, ad hoc retrieval task to TREC that provides a natural home for new participants.		
+								</div>
+								<div class="col-md-6 col-right">
+									<h4>Web Track <small>: 2003 - 2004</small></h4>
+									The goals of Web Track are:<br>1. To investigate methods for effective topic distillation: Finding a set of the best home pages, given a broad query.<br>2. To investigate methods for effective navigational search, with a mixture of home page and named page queries: Finding a particular page desired by the user.<br>3.To increase the available queries/judgments for the .GOV test collection.
+								</div>
+							</div>
+						</dd>
+						
+						<dt id="vcob">VCoB <small>: 2004 - Present</small></dt>
+						<dd>
+							<ul>
+								<li>The aim of the Virtual Collection Builder (VCoB) project is to develop an adaptive, interactive agent for building and maintaining a virtual collection of Web documents. </li>
+								<li>VCob approach will employ a wide array of methods from content analysis, citation analysis, machine learning, and information retrieval to collect, organize, and maintain a searchable and browsable collection of documents that are custom-taylored to the needs and preferences of individual users.</li>
+							</ul>
+						</dd>
+						
+						<dt id="dgov">DGov <small>: 2004 - 2006</small></dt>
+						<dd>
+							<ul>
+								<li>The aim of the Digital Government (DGov) project is to develop a more efficient and effective approach to organizing the U.S. Government websites that can facilitate the access and enhance the retrieval of government information.</li>
+								<li>DGov approach will combine information retrieval (e.g. keyword search) and information organization methods (e.g. Semantic Web) to optimize the government information discovery process on the Web.</li>
+							</ul>
+						</dd>
+						
+						<dt id="jittdl">jiTTDL <small>: 2004 - 2007</small></dt>
+						<dd>
+							<ul>
+								<li>JiTTDL is an NSF-funded project at US Air Force Academy that will develop the digital library for Just-in-Time pedagogical resources. Dr. Elin Jacob and myself are consultants on JiTTDL project, where we are employing CSKD-based approaches to construct a prototype digital library system.</li>
+							</ul>
+						</dd>
+
+						<dt id="cskd">CSKD <small>: 2003 - 2009</small></dt>
+						<dd>
+						</dd>
+
+						<dt id="widit">WIDIT <small>: 2002 - Present</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="irisweb">IRISWeb <small>: Spring 1998 - 2002</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="pudns">Public User Data Navigation System <small>: 1999 - 2000</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="stp">Sitemap Tree Project <Small>: Spring 1999</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="wse">Web Search Evaluation <small>: Fall 1998</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="ls">Link Summarizer <small>: Spring 1998</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="irissc">IRIS Sitemap-Crawler <small>: Fall 1997</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="irismp">IRIS Multimedia Project <small>: Fall 1997</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="ns">NICE STEMMER <small>: Fall 1996</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="irist">IRIS Topaz <small>: 1997-1998</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="irisr">IRIS Ruby <small>: Spring 1996</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="socsa">SOCSA <small>: Fall 1996</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="seed">SEED <small>: Spring 1996</small></dt>
+						<dd>
+						</dd>
+						
+						<dt id="cann">CANN <small>: Fall 1995</small></dt>
+						<dd>
+						</dd>
+					</dl>
+					<p class="text-right"><small><strong>Page Last Updated:</strong> October 1, 2010</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<small>
+		<div class="container">
+			<dl>
+				<dt>
+					Contact Information:
+				</dt>
+				<dd>
+					<a href="http://lis.knu.ac.kr/">Department of Library and Information Science, Kyungpook University</a><br>
+					80 Daehakro, Bukgu, Daegu, 702-701, Korea
+				</dd>
+			</dl>
+			<ul class="list-inline">
+				<li><strong>E-mail:</strong> <a href="mailto:kiyang@knu.ac.kr">kiyang@knu.ac.kr</a></li>
+				<li><strong>Phone:</strong> 053-580-5426</li>
+				<li><strong>Fax:</strong> 053-580-5313</li>
+			</ul>
+		</div>
+		</small>
 	</div>
 	</body>
 </html>
