@@ -6,10 +6,12 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 		<script src="./js/jquery-2.1.1.js"></script>
 		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/curriculum_vitae.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/basic.css" rel="stylesheet" media="screen">
+		<link href="css/curriculum_vitae.css" rel="stylesheet">
 	</head>
-	<body>
+	<body  data-spy="scroll" data-target=".sidebar">
 	<div class="header">
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
@@ -39,6 +41,248 @@
 	</div>
 
 	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="sidebar hidden-print affix" role="complementary">
+						<ul class="nav nav-pills nav-stacked">
+							<li class="active"><a href="#objective">Objective</a></li>
+							<li><a href="#education">Education</a></li>
+							<li><a href="#research">Research</a></li>
+							<li><a href="#teaching">Teaching</a></li>
+							<li><a href="#professional_experience">Professional Experience</a></li>
+							<li><a href="#technical_skills">Technical Skills</a></li>
+							<li><a href="#awards_honors">Awards & Honors</a></li>
+							<li><a href="#organizations">Organizations</a></li>
+							<li><a href="http://widit.knu.ac.kr/~kiyang/mydoc/kiyangCV8.pdf">PDF Version</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-4">
+						</div>
+						<div id="objective" class="col-md-4">
+							<h3>Objective</h3>
+							<p>Research and develop efficient and effective information retrieval and knowledge discovery methods that integrate multiple data sources and methods. Design and implement information technology solutions that facilitate everyday tasks by combining capabilities of the human and the machine.</p>
+						</div>
+					</div>
+
+					<div class="down"><span class="glyphicon glyphicon-arrow-down"></span></div>
+
+					<div class="row" id="education">
+						<div class="col-md-1">
+						</div>
+						<div class="col-md-10 contents">
+							<h2><span class="glyphicon glyphicon-book"></span><br>Education</h2>
+							<div class="row">
+								<div class="col-md-4"><h3>July, 2002</h3></div>
+								<div class="col-md-8"><h4>Ph.d in Information Science</h4><a href="http://ils.unc.edu/">School of Information and Library Science, UNC-CH</a></div>
+							</div>
+							<div class="row">
+								<div class="col-md-4"><h3>May, 1997</h3></div>
+								<div class="col-md-8"><h4>M.S. in Information Science</h4><a href="http://ils.unc.edu/">School of Information and Library Science, UNC-CH</a></div>									
+							</div>
+							<div class="row">
+								<div class="col-md-4"><h3>August, 1987</h3></div>
+								<div class="col-md-8"><h4>B.S. in Mathematical Science, Computer Science Option</h4>UNC-CH</div>									
+							</div>								
+						</div>
+					</div>
+
+					<div class="down"><span class="glyphicon glyphicon-arrow-down"></span></div>
+
+					<div class="row" id="research">
+						<div class="row upper">
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-10 header">	
+								<h2><span class="glyphicon glyphicon-pencil"></span><br>Research</h2><br>
+								<ul class="list-inline text-center cal">
+									<li><span class="glyphicon glyphicon-calendar"></span></li>
+									<li><a class="button" href="javascript:$('body').scrollTo('#research-present');">2002 - Present</a></li>
+									<li><a class="button" href="javascript:$('body').scrollTo('#research-2002');">1999 - 2002</a></li>
+									<li><a class="button" href="javascript:$('body').scrollTo('#research-1998');">1998</a></li>
+									<li><a class="button" href="javascript:$('body').scrollTo('#research-1997');">1997</a></li>
+									<li><a class="button" href="javascript:$('body').scrollTo('#research-1996');">1996</a></li>
+								</ul>
+							</div>						
+						</div>
+						<div class="row">
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-10 contents">	
+								<div class="row" id="research-present">
+									<div class="col-md-3">
+										<h3>2002 - Present</h3>
+									</div>
+									<div class="col-md-9">
+										<h4><strong>WIDIT Research</strong></h4>
+										Web Information Discovery Integrated Tool (WIDIT) research aims to develop an integrated approach to Web information discovery by leveraging multiple sources of evidence (e.g., text, hyperlink, ontology), combining complementary methods (e.g., information retrieval, natural language processing, machine learning, knowledge organization), and optimizing the integration of human intelligence with machine processing power. WIDIT laboratory houses the collaborative research projects of three faculty members and numerous students.
+										<dl>
+											<dt>TREC Project<small>: 2002-present, Project Director</small></dt>
+											<dd>
+												TREC project investigates cutting-edge information retrieval strategies that accommodate a variety of data environments and search tasks. TREC project is responsible for developing core components of the WIDIT system architecture, which are utilized in other WIDIT projects, as well as TREC experiments.
+											</dd>
+											<dt>VCoB Project<small>: 2003-present, Project Director</small></dt>
+											<dd>
+												Virtual Collection Builder (VCoB) project aims to develop an adaptive and interactive agent for building and maintaining a virtual collection of Web documents. VCoB will employ a wide array of methods from content analysis, citation analysis, machine learning, and information retrieval to collect, organize, and maintain a searchable and browsable collection of documents that are custom-taylored to the needs and preferences of individual users.
+											</dd>
+											<dt>CiteSearch Project<small>: 2005-present, Project Co-Director with L. Meho</small></dt>
+											<dd>	
+												CiteSearch project, a component of VCoB, develops a multi-faceted fusion approach to information quality assessment that employs a range of citation-based methods to analyze data from multiple sources. The CiteSearch system currently consists of the sf-vcob component, which harvests and analyzes citation data of faculty publications, and the mini-vcob component, which collects and organizes scholarly publications and associated citation data on a given topic.
+											</dd>						
+											<dt>CSKD Project<small>: 2003 - 2009, Project Co-Director with E.K. Jacob</small></dt>
+											<dd>
+												The Classification-based Search and Knowledge Discovery (CSKD) research explores methods of leveraging both the ontological and link-structural knowledge embedded in classified corpora of Web documents for searching and organizing the Web. CSKD is a multi-dimensional project that entails investigations in such area as machine learning, classification, clustering, link analysis, and fusion.
+											</dd>
+											<dt>JiTTDL Project<small>: 2004 - 2007, Project Co-Director with E.K. Jacob</small></dt>
+											<dd>
+												Just-in-Time Teaching Digital Library (JiTTDL) is an NSF-funded project at US Air Force Academy to develop the digital library for Justin-in-Time pedagogical resources, where CSKD-based approaches were employed to construct a prototype digital library system.
+											</dd>
+											<dt>DGov Project<small>: 2004 - 2006, Project Co-Director with L. Meho</small></dt>
+											<dd>
+												Digital Government (DGov) project investigates an efficient and effective approach to organizing the U.S. Government websites that can facilitate the access and enhance the retrieval of government information.i The DGoV project became inactive when a major government initiative to restructure FirstGov.gov to USA.gov began in 2007.
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="row" id="research-2002">
+									<div class="col-md-3">
+										<h3>1999 - 2002</h3>
+									</div>
+									<div class="col-md-9">
+										<h4><strong>Sitemap Tree Project</strong></h4>
+										<ul>
+											<li>A dynamic tree manipulation application allowing creation and maintenance of a hierarchical tree structure, which can represent various entities from a file system (e.g. Windows Explorer) to a hyperlink-based map of a given Web site.</li>
+											<li>Implemented with JavaBeans and Swing Components.</li>
+											<li><a href="http://ils.unc.edu/yangk/sitemaptree.htm">http://ils.unc.edu/yangk/sitemaptree.htm</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="research-1998">
+									<div class="col-md-3">
+										<h3>1998</h3>
+									</div>
+									<div class="col-md-9">
+										<h4><strong>IRISWeb project under Chancellor’s Instructional Technology Grant</strong></h4>
+										<ul>
+											<li>IRISWeb is a work-in-progress prototype of the next-generation web search engine that will incorporate the features of dynamic indexing, meta-search, relevance-feedback, and dynamic collection development.</li>
+											<li>Currently implemented in Java, C++, C, and Perl.</li>
+											<li><a href="http://ils.unc.edu/iris/">http://ils.unc.edu/iris/</a></li>
+										</ul>										
+									</div>
+								</div>
+								<div class="row" id="research-1997">
+									<div class="col-md-3">
+										<h3>1997</h3>
+									</div>
+									<div class="col-md-9">
+										<h4><strong>IRISWeb Indexing Project</strong></h4>
+										<ul>
+											<li>IRIS Web Indexing module is comprised of two main components: the Web Crawler/Indexer application which indexes a target URL and its embedded links, and Sitemap Display applet, which displays the indexed pages in a directory tree structure.</li>
+											<li>Implemented in Java.</li>
+											<li><a href="http://ils.unc.edu/iris/sitemap/mksmap.htm">http://ils.unc.edu/iris/sitemap/mksmap.htm</a></li>
+										</ul>										
+									</div>
+								</div>	
+								<div class="row" id="research-1996">
+									<div class="col-md-3">
+										<h3>1996</h3>
+									</div>
+									<div class="col-md-9">
+										<h4><strong>Nice Stemmer Project</strong></h4>
+										<ul>
+											<li>Nice Stemmer implements 4 stemmer algorithms, any of which can be executed by the user according to his/her need.</li>
+											<li>Implemented in C++.</li>
+											<li><a href="http://ils.unc.edu/yangk/nstem.htm">http://ils.unc.edu/yangk/nstem.htm</a></li>
+										</ul>										
+										<h4><strong>IRISRuby Project</strong></h4>
+										<ul>
+											<li>IRISRuby is the first incarnation of IRIS. It can index and search documents stored on an intranet server.</li>
+											<li>Implemented in Perl.</li>
+											<li><a href="http://ils.unc.edu/inls300/iris.html">http://ils.unc.edu/inls300/iris.html</a></li>
+										</ul>										
+									</div>
+								</div>
+
+							</div>		
+						</div>
+					</div>
+
+					<div class="down"><span class="glyphicon glyphicon-arrow-down"></span></div>
+
+					<div class"row" id="teaching">
+						<div class="row">
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-10 contents">	
+								<h2><span class="glyphicon glyphicon-comment"></span><br>Teaching</h2>
+								<div class="row">
+									<div class="col-md-4"><h3>2010, Fall</h3></div>
+									<div class="col-md-8">
+									<ul>
+										<li><h4><a href="http://kiyang.kmu.ac.kr/teaching/IL/">Information Literacy</a> (KMU)</h4></li>
+										<li><h4><a href="http://kiyang.kmu.ac.kr/teaching/IT/">Internet Technology</a> (KMU)</h4></li>
+										<li><h4><a href="http://kiyang.kmu.ac.kr/teaching/SE/">Search Engine</a> (KMU)</h4></li>
+										<li><h4><a href="http://kiyang.kmu.ac.kr/teaching/WP/">Web Programming</a> (KMU)</h4></li>									
+									</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4"><h3>2002-2010, Fall/Spring</h3></div>
+									<div class="col-md-8"><h4><a href="http://ella.slis.indiana.edu/~kiyang/teaching/s517/">S517: Web Programming</a> (IUB)</h4></div>
+								</div>
+								<div class="row">
+									<div class="col-md-4"><h3>2003-2010, Fall/Summer</h3></div>
+									<div class="col-md-8"><h4><a href="http://ella.slis.indiana.edu/~kiyang/teaching/s511/">S511: Database Design</a> (IUB)</h4></div>
+								</div>
+								<div class="row">
+									<div class="col-md-4"><h3>2003-2010, Spring</h3></div>
+									<div class="col-md-8"><h4><a href="http://ella.slis.indiana.edu/~kiyang/teaching/s534/">S534: Information Retrieval: Theory and Practice</a> (IUB)</h4></div>
+								</div>
+								<div class="row">
+									<div class="col-md-4"><h3>2003-2010, Summer</h3></div>
+									<div class="col-md-8"><h4><a href="http://ella.slis.indiana.edu/~kiyang/teaching/s603/">S603: Perl/CGI Workshop</a> (IUB)</h4></div>
+								</div>
+								<div class="row">
+									<div class="col-md-4"><h3>1999, Summer</h3></div>
+									<div class="col-md-8"><h4>Internet Applications (UNC-CH)</h4></div>
+								</div>								
+								<div class="row">
+									<div class="col-md-4"><h3>1979-1987</h3></div>
+									<div class="col-md-8"><h4>Assistant Instructor, Carolina Martial Arts Club., Chapel Hill, NC</h4></div>
+								</div>
+							</div>
+						</div>					
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div class="footer">
+		<small>
+		<div class="container">
+			<dl>
+				<dt>
+					Contact Information:
+				</dt>
+				<dd>
+					<a href="http://lis.knu.ac.kr/">Department of Library and Information Science, Kyungpook University</a><br>
+					80 Daehakro, Bukgu, Daegu, 702-701, Korea
+				</dd>
+			</dl>
+			<ul class="list-inline">
+				<li><strong>E-mail:</strong> <a href="mailto:kiyang@knu.ac.kr">kiyang@knu.ac.kr</a></li>
+				<li><strong>Phone:</strong> 053-580-5426</li>
+				<li><strong>Fax:</strong> 053-580-5313</li>
+			</ul>
+		</div>
+		</small>
+	</div>	
 	</body>
 </html>

@@ -1,0 +1,103 @@
+h1 {
+	margin-bottom: 40px;
+}
+.sub-title {
+	color: #77AEFF;
+	text-align: center;
+	font-size: 200%;
+	padding: 5px 0px 5px 0px;
+	border-top: 1px solid #77AEFF;
+	border-radius: 6px;
+}
+.row-top {
+	border-bottom: 1px solid white;	
+	padding-bottom: 20px;
+}
+.row-bottom {
+	padding-top: 20px;
+}
+.button {
+	color: white;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition:background-color 0.5s;
+	-webkit-transition:background-color 0.5s;
+}
+.button:hover {
+	text-decoration: none;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.first-menu {
+	background-color: #77AEFF;
+	color: white;
+}
+.first-menu {
+	text-align: center;
+}
+.first-menu span {
+	font-size: 500%;
+}
+.first-menu h3 {
+	margin-top: 0;
+}
+.down {
+	color: #ddd;
+	text-align: center;
+	font-size: 250%;
+	margin-bottom: 30px;
+}
+.down span {
+	font-size: 250%;
+}
+.details {
+	background-color: white;
+	border: 1px solid #ddd;
+}
+.details ul {
+	list-style: none;
+}
+.details img {
+	height: 220px;
+}
+.details .row {
+	padding: 40px 0 40px 0;
+	border-bottom: 1px solid #ddd;
+}
+.details .imageDiv {
+	text-align: center;
+}
+.details .row:last-child
+{
+	border: none;
+}
+.details .list-title {
+	font-weight: bold;
+}
+.details .list-content {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 1.428571429;
+}
+.details .list-icon {
+	text-align: right;
+	font-size: 200%;
+}
+.list-icon span{
+	color: black;
+	transition:color 0.25s;
+	-webkit-transition:color 0.25s;	
+}
+.list-icon span:hover{
+	color: #FFA8A8;
+}
+dt {
+	margin-bottom: 10px;
+}
+.others .home {
+	text-align: right;
+	list-style: none;
+	font-size: 150%;
+}
