@@ -20,6 +20,7 @@ h3 {
 .contents {
 	border-radius: 20px;
 	padding: 40px 40px 40px 40px;
+	font-size: 120%;
 }
 .button {
 	color: white;
@@ -97,13 +98,33 @@ h2 span {
 	border-bottom-right-radius: 25px;
 }
 #teaching .contents {
-	background-color: #4169E1;
-	color: white;
+	background-color: #87CEFA;
 }
 #teaching ul {
 	padding: 0;
 	list-style: none;
 }
-#teaching a{
-	color: #AFEEEE;
+
+#technical_skills .contents {
+	background-color: #4169E1;
+	color: white;
+}
+
+#professional_experience .contents{
+	background-color: #0000CD;
+	color: white;
+}
+
+#professional_experience a {
+	color: #00BFFF;
+}
+
+#awards_honors .contents{
+	background-color: #000080;
+	color: white;
+}
+
+#organizations .contents {
+	background-color: black;
+	color: white;
 }
